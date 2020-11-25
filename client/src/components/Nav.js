@@ -20,7 +20,7 @@ function Nav() {
                   : "nav-link"
               }
             >
-              Portfolio
+              About
             </Link>
           </li>
           <li className="nav-item">
@@ -28,7 +28,7 @@ function Nav() {
               to="/portfolio"
               className={window.location.pathname === "/discover" ? "nav-link active" : "nav-link"}
             >
-              Contact
+              Portfolio
             </Link>
           </li>
           <li className="nav-item">
@@ -36,7 +36,7 @@ function Nav() {
               to="/contact"
               className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
             >
-              Search
+              Contact
             </Link>
           </li>
         </ul>
